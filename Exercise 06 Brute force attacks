@@ -1,0 +1,10 @@
+# Exercise 6: Brute Force Attack
+# Demonstrates simulating a password entry system.
+
+correct = "12345"                    # Correct password
+while True:
+    password = input("Enter password: ")          # Keep asking until correct
+    if password == correct:
+        print ("correct password entered")
+        break
+        
