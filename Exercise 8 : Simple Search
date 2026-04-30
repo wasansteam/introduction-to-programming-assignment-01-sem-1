@@ -1,0 +1,10 @@
+#Excercise 8: Simple Search                                                               
+
+names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]      # List of names
+
+search = "Sam"                                             # Name to search for
+
+if search in names:                                        # Check if in list
+    print("Sam found")
+else:
+    print("Sam not found")
