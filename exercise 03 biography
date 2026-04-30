@@ -1,0 +1,16 @@
+#Exercise 3: Biography
+#Demonstrates: Dictionaries, user input and output
+
+name = input("Enter your name: ")           #Handles words in name by using input
+hometown = input("Enter your hometown: ")   
+age = int(input("Enter your age: "))
+                                           # # Store in dictionary
+person = {
+    "name": name,
+    "hometown": hometown,
+    "age": age
+}
+
+print("Name:", person["name"])
+print("Hometown:", person["hometown"])
+print("Age:", person["age"])
