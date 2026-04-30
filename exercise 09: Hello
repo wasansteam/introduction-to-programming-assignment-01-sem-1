@@ -1,0 +1,11 @@
+#Excercise 9: Hello
+                    
+
+def hello():
+    print("Hello")          # Function that prints Hello
+
+def main():
+    hello()
+
+if __name__ == "__main__":
+    main()
