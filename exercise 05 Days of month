@@ -1,0 +1,12 @@
+# Exercise 5 :Days of month
+# Demonstrates: Dictionaries, input validation
+
+days = {
+    1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 31, 10: 30, 11:30,
+    12: 31,      #Create a dictionary for month and days
+}
+month = int(input("Enter month number (1-12): "))     #input from the user
+if month >= 1 and month <+ 12:                        #Checks if input is valid
+    print ("This month has", days[month], "days")     #Output if the user input is correct
+else:
+    print("Invalid month")  #Output if its wrong
