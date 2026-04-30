@@ -1,0 +1,9 @@
+# Exercise 4:  Primitive Quiz
+# Demonstrates user input, data type and ouput)
+
+answer = input("What is the capital of france") # Asks the user for answer
+if answer == "paris":                           #The correct input
+    print ("correct!")                          
+else:
+    print("wrong!")                             #If the user types wrong input
+    
