@@ -1,0 +1,15 @@
+#Exercise 10: Is it even?
+                                   
+def check_even_odd(number):                     # Check if number is even or odd
+    if number % 2 == 0:
+        return "The number is even"
+    else:
+        return "The number is odd"
+
+def main():
+    num = int(input("Enter a number: "))
+    result = check_even_odd(num)
+    print(result)
+
+if __name__ == "__main__":             # Ensures if the main function only runs if this script is executed directly
+    main()
