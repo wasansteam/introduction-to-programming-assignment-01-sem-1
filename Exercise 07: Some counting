@@ -1,4 +1,4 @@
-Excercise 7:  Some Counting
+#Excercise 7:  Some Counting
 
 
 for i in range(0, 51):               # Count 0 to 50
