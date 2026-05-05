@@ -2,9 +2,9 @@
 
 names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]      # List of names
 
-search = "Sam"                                             # Name to search for
+search = input("Enter name to search: " )                                           # Name to search for
 
 if search in names:                                        # Check if in list
-    print("Sam found")
+    print(search, "found")
 else:
-    print("Sam not found")
+    print(search, "not found")
