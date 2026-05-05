@@ -4,7 +4,7 @@
 name = input("Enter your name: ")           #Handles words in name by using input
 hometown = input("Enter your hometown: ")   
 age = int(input("Enter your age: "))
-                                           # # Store in dictionary
+                                            # Store in dictionary
 person = {
     "name": name,
     "hometown": hometown,
